@@ -51,111 +51,13 @@ Notes:
 
 
 
-## Instructions:
+## Instructions
+1. Create a program that will simulate the 4 pics 1 word game.
+2. The program will each level displays four pictures linked by one word.
+3. The player's aim is to work out what the word is, from a set of letters given below the pictures.
+4. For each correct answer, the player will receive 10 coins that will be added to his wallet. The player has an initial 100 coins in his wallet. Coins can be used to buy hint by revealing letters of the answer. One letter is worth 2 coins. The player may also opt to pass and move to the next picture costing him of 10 coins.
+5. The program must record the players progress level number, coin amount and the current picture he’s working on by storing data into a text file.
+6. The program must not repeat pictures that are already answered by the player.
+7. Provide at least 50 pictures from 3 – 8 letter words.
+You may download pictures from the internet.
 
-Write a program that will perform the following:
-
-1. Display Employee List
- - Retrieve records from empList.txt)
-
-2. Add Employee
-
-- Ask user to input the following data:
-
-    - unique employee number
-
-    - lastname
-
-    - firstname
-
-    - department
-
-    - rate per hour
-
-- Write the employee record to the empList.txt
-
-3. Add Payroll Record
-
-- Ask user to input the following data:
-
-    - employee number
-
-    - month
-
-    - no of days worked
-
-- write the payroll record into the empMR.txt
-
-
-
-
-4. Generate pay slip
-
-- Ask for employee number and month of the payslip to be generated
-
-- Create a payslip like statement written in a text file.
-
-```
-=================================================================
-
-Payslip for the Month of _________________
-
-Employee No.: ______________       Employee Name: _____________
-
-Department: ________________
-
-Rate per Day:_______________       No. of Days Worked: ________
-
-Gross Pay: _________________
-
-=================================================================   
-```
-
-
-## Validation
-
-### Add Employee Record
-
-- Employee Number (9-digits)
-
-- last and Firstname (characters only)
-
-- Department must one of the following: Accounting, Marketing, Human Resources, Finance, MIS, Admin
-
-- Rate per Day (real numbers)
-
-
-
-### Add Payroll Record
-
-- Employee Number (must be of an existing employee)
-
-- Month (1-12) only
-
-- No. of Day : whole numbers (depend on the number of days of the given Month)
-
-- There must be only one record for one employee for each month.
-
-
-
-### Generate Payslip
-
-- Employee No. (must of an existing employee)
-
-- Month (1-12 and must be existing in the record)
-
-
-
-# Rubric:
-
-- Functionality      25
-
-- Exception Handling   20
-
-- File Manipulation  20
-
-- Coding Style (Module/Functions,Data Structures) 20
-
-- Formatting/Output Design 15
-
-[Back to Project List](\..\README.md)
