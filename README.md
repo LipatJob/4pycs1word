@@ -6,7 +6,7 @@ Machine Problem 2
 
 Author: Job Lipat
 
-Date Created: May 17, 2020
+Date Created: June 14, 2020
 
 Notes:
 
@@ -19,6 +19,7 @@ Notes:
 | ------- | ------------- |
 | [__ main __](__main__.py) | Entry Point of the program |
 | [<*module*>ViewController](payroll/PayrollViewController.py) | Where the UI of the program is handled |
+| <*module*>View | Contains all the GUI elements.  |
 
 
 ### Business Logic Layer
