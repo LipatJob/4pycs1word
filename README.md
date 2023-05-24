@@ -8,8 +8,11 @@ Author: Job Lipat
 
 Date Created: June 14, 2020
 
-Notes:
 
+## Running The Application
+* Make sure you have python installed
+* Clone the repository
+* Run `__main__.py`
 
 
 ## Responsibilities of Modules:
